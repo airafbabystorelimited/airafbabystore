@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop - Ai'raf Baby Store Limited</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            <h1>Ai'raf Baby Store Limited</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="wholesale.html">Wholesale</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- SHOP INTRO -->
+
+        <section class="shop-intro">
+
+            <p class="section-label">
+                SHOP OUR COLLECTION
+            </p>
+
+            <h2>
+                Baby & Mother's Care Products
+            </h2>
+
+            <p>
+                Choose the products you need and add them to your order.
+                We will confirm current prices and availability with you.
+            </p>
+
+        </section>
+
+
+        <!-- ORDER BAR -->
+
+        <section class="order-bar">
+
+            <div>
+                <strong>My Order</strong>
+                <span id="cart-count">0 items</span>
+            </div>
+
+            <button id="view-order-btn" class="btn primary-btn">
+                View My Order
+            </button>
+
+        </section>
+
+<!-- REQUEST A PRODUCT -->
+
+<section class="product-request">
+
+    <div class="product-request-content">
+
+        <p class="section-label">
+            CAN'T FIND WHAT YOU NEED?
+        </p>
+
+        <h2>
+            Looking for something else?
+        </h2>
+
+        <p>
+            Tell us what you're looking for and we'll check
+            availability for you.
+        </p>
+
+        <button id="request-product-btn" class="btn secondary-btn">
+            + Request a Product
+        </button>
+
+    </div>
+
+</section>
+
+
+        <!-- CATEGORY FILTERS -->
+
+        <section class="shop-categories">
+
+            <button class="category-filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="category-filter" data-filter="clothing">
+                Baby Clothing
+            </button>
+
+            <button class="category-filter" data-filter="feeding">
+                Feeding & Bottles
+            </button>
+
+            <button class="category-filter" data-filter="bath">
+                Baby Bath & Care
+            </button>
+
+            <button class="category-filter" data-filter="diapers">
+                Diapers & Changing
+            </button>
+
+            <button class="category-filter" data-filter="bedding">
+                Baby Bedding
+            </button>
+
+            <button class="category-filter" data-filter="toys">
+                Toys & Accessories
+            </button>
+
+            <button class="category-filter" data-filter="essentials">
+                Baby Essentials
+            </button>
+
+            <button class="category-filter" data-filter="mother">
+                Mother's Care
+            </button>
+
+        </section>
+
+
+        <!-- PRODUCTS -->
+
+        <section class="products-section">
+
+            <div class="product-grid">
+
+
+<!-- 1. BABY CLOTHING -->
+
+<article class="product-card" data-category="clothing">
+
+    <div class="product-image clothing-images">
+
+        <img
+            src="images/baby-romper.jpg"
+            alt="Baby Romper"
+            loading="lazy">
+
+        <img
+            src="images/baby-clothes-set.jpg"
+            alt="Baby Clothes Set"
+            loading="lazy">
+
+    </div>
+
+    <div class="product-info">
+
+        <h3>
+            Baby Clothing
+        </h3>
+
+        <p>
+            Explore our collection of comfortable baby rompers
+            and clothing sets for everyday wear.
+        </p>
+
+        <div class="product-actions">
+
+            <div class="quantity-control">
+
+                <button class="quantity-minus">
+                    −
+                </button>
+
+                <span class="quantity">1</span>
+
+                <button class="quantity-plus">
+                    +
+                </button>
+
+            </div>
+
+            <button
+                class="add-order-btn"
+                data-product="Baby Clothing">
+
+                Add to Order
+
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+                <!-- 2. FEEDING BOTTLE -->
+
+                <article class="product-card" data-category="feeding">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-feeding-bottle.jpg"
+                            alt="Baby Feeding Bottle">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Feeding Bottle
+                        </h3>
+
+                        <p>
+                            Feeding bottle suitable for babies.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Feeding Bottle">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 3. BABY BATH & CARE -->
+
+                <article class="product-card" data-category="bath">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-bath-care-set.jpg"
+                            alt="Baby Bath and Care Set">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Bath & Care Set
+                        </h3>
+
+                        <p>
+                            Baby care essentials for bath time and everyday use.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Bath & Care Set">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 4. BABY DIAPERS -->
+
+                <article class="product-card" data-category="diapers">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-diapers.jpg"
+                            alt="Baby Diapers">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Diapers
+                        </h3>
+
+                        <p>
+                            Comfortable and reliable diapers for babies.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Diapers">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 5. BABY BEDDING -->
+
+                <article class="product-card" data-category="bedding">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-bedding-set.jpg"
+                            alt="Baby Bedding Set">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Bedding Set
+                        </h3>
+
+                        <p>
+                            Comfortable bedding essentials for your little one.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Bedding Set">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 6. BABY TOY -->
+
+                <article class="product-card" data-category="toys">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-toy.jpg"
+                            alt="Baby Toy">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Toy
+                        </h3>
+
+                        <p>
+                            Fun and engaging toys for babies and young children.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Toy">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 7. BABY ESSENTIALS -->
+
+                <article class="product-card" data-category="essentials">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/baby-essentials-set.jpg"
+                            alt="Baby Essentials Set">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Baby Essentials Set
+                        </h3>
+
+                        <p>
+                            A selection of useful everyday baby essentials.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Baby Essentials Set">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 8. MOTHER'S CARE -->
+
+                <article class="product-card" data-category="mother">
+
+                    <div class="product-image">
+
+                        <img
+                            src="images/mothers-care.jpg"
+                            alt="Mother's Care">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <h3>
+                            Mother's Care
+                        </h3>
+
+                        <p>
+                            Selected care products for mothers.
+                        </p>
+
+                        <div class="product-actions">
+
+                            <div class="quantity-control">
+
+                                <button class="quantity-minus">
+                                    −
+                                </button>
+
+                                <span class="quantity">1</span>
+
+                                <button class="quantity-plus">
+                                    +
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="add-order-btn"
+                                data-product="Mother's Care">
+
+                                Add to Order
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- WHOLESALE -->
+
+        <section class="business-section">
+
+            <div class="business-content">
+
+                <p class="section-label">
+                    RETAIL & WHOLESALE
+                </p>
+
+                <h2>
+                    Buying in larger quantities?
+                </h2>
+
+                <p>
+                    Contact Ai'raf Baby Store Limited for wholesale
+                    enquiries, bulk orders and product availability.
+                </p>
+
+                <a href="wholesale.html" class="btn primary-btn">
+                    Wholesale Enquiries
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    
+    
+<!-- REQUEST PRODUCT MODAL -->
+
+<div id="product-request-modal" class="order-modal">
+
+    <div class="order-box">
+
+        <button id="close-request-product" class="close-order">
+            ×
+        </button>
+
+        <h2>
+            Request a Product
+        </h2>
+
+        <p class="order-note">
+            Can't find the product you're looking for?
+            Tell us what you need and we'll check availability.
+        </p>
+
+
+        <div class="request-form">
+
+            <label for="requested-product">
+                Product name
+            </label>
+
+            <input
+                type="text"
+                id="requested-product"
+                placeholder="e.g. Baby stroller"
+            >
+
+
+            <label for="requested-quantity">
+                Quantity
+            </label>
+
+            <input
+                type="number"
+                id="requested-quantity"
+                value="1"
+                min="1"
+            >
+
+
+            <label for="requested-details">
+                Additional details
+                <span>(optional)</span>
+            </label>
+
+            <textarea
+                id="requested-details"
+                rows="4"
+                placeholder="e.g. Colour, size, brand or any other details">
+            </textarea>
+
+
+            <button
+                id="add-requested-product"
+                class="btn primary-btn">
+
+                Add to My Order
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- ORDER MODAL -->
+
+    <div id="order-modal" class="order-modal">
+
+        <div class="order-box">
+
+            <button id="close-order" class="close-order">
+                ×
+            </button>
+
+            <h2>
+                My Order
+            </h2>
+
+            <p class="order-note">
+                Review your selected products before placing your order.
+                Prices will be confirmed by Ai'raf Baby Store Limited.
+            </p>
+
+            <div id="order-list">
+                <!-- Order items appear here -->
+            </div>
+
+            <div class="order-actions">
+
+                <button
+                    id="continue-shopping"
+                    class="btn secondary-btn">
+
+                    Continue Shopping
+
+                </button>
+
+                <button
+                    id="place-order"
+                    class="btn primary-btn">
+
+                    Place Order
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <h3>
+                Ai'raf Baby Store Limited
+            </h3>
+
+            <p>
+                Baby Products & Mother's Care
+            </p>
+
+        </div>
+
+        <p class="copyright">
+            ©2026 All rights reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+  </html>
